@@ -1,0 +1,13 @@
+import org.gradle.api.initialization.resolve.RepositoriesMode
+
+rootProject.name = 'outline-shop'
+
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.PREFER_SETTINGS)
+
+    dependencyResolutionManagement {
+        repositories {
+            mavenCentral()
+        }
+    }
+}
